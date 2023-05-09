@@ -52,10 +52,12 @@ button {
     color: rgb(237, 182, 42);
     border-color: rgb(237, 182, 42);
     width: 120px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
 
-
-
-
+button:hover {
+    transform: scale(1.1);
 }
 
 .readmore {
