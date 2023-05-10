@@ -108,16 +108,12 @@ button:hover {
 }
 
 .card-body h5 {
-    font-size: 32px;
-    font-family: mandalorian;
+    font-size: 28px;
+    font-family: 'Anton', sans-serif;
     color: rgb(237, 182, 42);
     text-align: center;
 }
 
 .card-body a {
     color: rgb(237, 182, 42);
-}
-
-main {
-    align-items: center;
 }
