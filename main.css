@@ -22,8 +22,10 @@ body {
     background-color: black;
 }
 
-#hero-img {
-    margin-top: 60px;
+
+
+.margin-nav {
+    margin-top: 80px;
 }
 
 .navbar-toggler {
