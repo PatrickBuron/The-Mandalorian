@@ -108,7 +108,9 @@ button:hover {
 
 .card:hover {
     transform: scale(1.03);
-    border-color: rgb(237, 182, 42);
+    /* border-color: rgb(237, 182, 42); */
+
+    border-color: rgb(90, 113, 167);
 }
 
 .card-body {
