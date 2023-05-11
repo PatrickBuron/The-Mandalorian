@@ -101,6 +101,14 @@ button:hover {
 
 /*  css for cards in characters*/
 
+.card {
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
 .card-body {
     text-align: center;
     background-color: black;
