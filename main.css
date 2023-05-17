@@ -17,20 +17,32 @@ body {
 
 }
 
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!NAVBAR!!!!!!!!!!!!!! */
+
 .navbar {
 
     background-color: black;
 }
 
+/* .container-fluid {
+
+    justify-content: space-around;
+} */
 
 
 .margin-nav {
     margin-top: 80px;
 }
 
+
 .navbar-toggler {
     width: 60px;
     margin-bottom: 9px;
+}
+
+.nav-link {
+    color: lightgray;
+
 }
 
 
@@ -100,7 +112,7 @@ button:hover {
     text-align: center;
 }
 
-/*  css for cards in characters*/
+/*  !!!!!!!!!!!css for cards in characters !!!!!!!!!!!!!!*/
 
 .card {
     transition: all 0.3s;
