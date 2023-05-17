@@ -24,6 +24,10 @@ nav {
     border-bottom: 1px solid rgb(90, 113, 167);
 }
 
+a.active {
+    color: rgb(237, 182, 42) !important;
+}
+
 .navbar {
 
     background-color: black;
