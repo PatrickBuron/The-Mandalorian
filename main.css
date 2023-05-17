@@ -19,15 +19,17 @@ body {
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!NAVBAR!!!!!!!!!!!!!! */
 
+
+nav {
+    border-bottom: 1px solid rgb(90, 113, 167);
+}
+
 .navbar {
 
     background-color: black;
 }
 
-/* .container-fluid {
 
-    justify-content: space-around;
-} */
 
 
 .margin-nav {
