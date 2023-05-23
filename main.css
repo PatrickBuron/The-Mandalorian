@@ -199,3 +199,26 @@ button:hover {
 .card-body a:hover::before {
     transform: scaleX(1);
 }
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!! FOOTER !!!!!!!!!!!!!!!!!!!!!!!! */
+
+.copyright {
+    color: rgb(237, 182, 42);
+    margin-top: 1rem;
+
+}
+
+.footer-text {
+    color: rgb(237, 182, 42);
+    font-family: mandalorian;
+    font-size: 24px;
+
+}
+
+.d-flex {
+    border-top: 1px solid rgb(90, 113, 167);
+    margin-top: 1rem;
+}
