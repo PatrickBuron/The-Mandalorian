@@ -83,23 +83,20 @@ a.active {
 }
 
 
-
+/* !!!!!!!!!!!!!!!!!!!!!!   TYPOGRAPHY     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 h1 {
     font-family: mandalorian;
     font-size: 42px;
     color: rgb(237, 182, 42);
-
-
 }
 
 h2 {
     font-family: mandalorian;
-
     font-size: 34px;
     text-align: center;
-    /* color: rgb(237, 182, 42); */
     color: rgb(90, 113, 167);
+    /* margin-top: 5rem; */
 }
 
 h4 {
@@ -108,11 +105,16 @@ h4 {
     color: rgb(237, 182, 42);
 }
 
-h5 {
+h5,
+#character-name {
     text-align: center;
     font-family: mandalorian;
     font-size: 28px;
     color: rgb(237, 182, 42);
+}
+
+#character-name {
+    margin-top: 2rem;
 }
 
 
@@ -126,9 +128,26 @@ p {
 }
 
 
+/* !!!!!!!!!!!!!!!!!!!!!!!!!  CONTENT !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+.content {
+    padding: 3rem 0;
+}
+
+#content-filming {
+    padding-top: 0 !important;
+}
+
+.img-index {
+    padding: 16px 0;
+}
+
+
 
 .foto-info {
     font-size: 11px;
+    visibility: hidden;
 }
 
 img {
