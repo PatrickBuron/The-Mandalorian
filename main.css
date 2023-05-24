@@ -1,6 +1,7 @@
 @font-face {
     font-family: mandalorian;
     src: url(assets/img/fonts/Mandalorian.otf);
+    font-display: swap;
 }
 
 HTML,
