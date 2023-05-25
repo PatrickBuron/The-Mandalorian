@@ -23,6 +23,7 @@ header {
 
 html {
     scroll-behavior: smooth;
+    font-size: 16px;
 }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!NAVBAR!!!!!!!!!!!!!! */
@@ -105,14 +106,13 @@ h5,
 }
 
 p {
-    font-size: 16px;
-    font-weight: 300;
     padding: 1em;
     line-height: 1.6;
 }
 
 .intro {
-    color: rgb(90, 113, 167);
+    color: rgb(237, 182, 42);
+    font-size: 18px;
 }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!  CONTENT !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -149,7 +149,6 @@ img {
 }
 
 /* !!!!!!!!!!!!!!!!!!!!  BUTTON !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
 
 button {
     font-family: 'Poppins';
@@ -213,7 +212,6 @@ button:hover {
     bottom: 0;
     left: 0;
     background-color: rgb(90, 113, 167);
-    /* background-color: lightgray; */
     transform: scaleX(0);
     transition: transform 0.4s ease;
 }
@@ -255,14 +253,12 @@ button:hover {
 .copyright {
     color: rgb(237, 182, 42);
     margin-top: 1rem;
-
 }
 
 .footer-text {
     color: rgb(237, 182, 42);
     font-family: mandalorian;
     font-size: 24px;
-
 }
 
 .d-flex {
