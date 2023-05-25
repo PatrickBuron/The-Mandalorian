@@ -298,7 +298,7 @@ button:hover {
     margin-top: 1rem;
 }
 
-@media only screen and (max-width: 1077px) and (min-width: 992px) {
+@media only screen and (max-width: 1092px) and (min-width: 992px) {
     .nav-link {
         font-size: 13px;
     }
