@@ -29,7 +29,7 @@ html {
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!NAVBAR!!!!!!!!!!!!!! */
 
 nav {
-    border-bottom: 1px solid rgb(90, 113, 167);
+    border-bottom: 0.063rem solid rgb(90, 113, 167);
 }
 
 a.active {
@@ -47,7 +47,7 @@ a.active {
     position: absolute;
     display: block;
     width: 100%;
-    height: 1px;
+    height: 0.063rem;
     bottom: 0;
     left: 0;
     background-color: rgb(90, 113, 167);
@@ -64,8 +64,8 @@ a.active {
 }
 
 .navbar-toggler {
-    width: 60px;
-    margin-bottom: 9px;
+    width: 3.75rem;
+    margin-bottom: 0.563rem;
 }
 
 .nav-link {
@@ -76,20 +76,20 @@ a.active {
 
 h1 {
     font-family: mandalorian;
-    font-size: 42px;
+    font-size: 2.625rem;
     color: rgb(237, 182, 42);
 }
 
 h2 {
     font-family: mandalorian;
-    font-size: 34px;
+    font-size: 2.125rem;
     text-align: center;
     color: rgb(90, 113, 167);
 }
 
 h4 {
     font-family: 'Anton', sans-serif;
-    font-size: 36px;
+    font-size: 2.25rem;
     color: rgb(237, 182, 42);
 }
 
@@ -97,7 +97,7 @@ h5,
 #character-name {
     text-align: center;
     font-family: mandalorian;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: rgb(237, 182, 42);
 }
 
@@ -106,13 +106,13 @@ h5,
 }
 
 p {
-    padding: 1em;
+    padding: 2rem;
     line-height: 1.6;
 }
 
 .intro {
     color: rgb(237, 182, 42);
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
 }
 
@@ -129,16 +129,16 @@ p {
 /* !!!!!!!!!!!!!!!!!!!!!!!  IMAGES !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 .img-index {
-    padding: 16px 0;
+    padding: 1rem 0;
 }
 
 .foto-info {
-    font-size: 11px;
+    font-size: 0.688rem;
     visibility: hidden;
 }
 
 #hero-img {
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 img {
@@ -157,7 +157,7 @@ button {
     background-color: black;
     color: rgb(237, 182, 42);
     border-color: rgb(237, 182, 42);
-    width: 120px;
+    width: 7.5rem;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -188,7 +188,7 @@ button:hover {
 }
 
 .card-body h5 {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-family: 'Anton', sans-serif;
     color: rgb(237, 182, 42);
     text-align: center;
@@ -226,10 +226,10 @@ button:hover {
 .to-top {
     background: white;
     position: fixed;
-    bottom: 16px;
-    right: 32px;
-    width: 50px;
-    height: 50px;
+    bottom: 1rem;
+    right: 2rem;
+    width: 3.125rem;
+    height: 3.125rem;
     border-radius: 50%;
     border: 2px solid rgb(90, 113, 167);
     display: flex;
@@ -244,7 +244,7 @@ button:hover {
 }
 
 .to-top.active {
-    bottom: 32px;
+    bottom: 2rem;
     pointer-events: auto;
     opacity: 1;
 }
@@ -259,7 +259,7 @@ button:hover {
 .footer-text {
     color: rgb(237, 182, 42);
     font-family: mandalorian;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .d-flex {
@@ -271,6 +271,6 @@ button:hover {
 
 @media only screen and (max-width: 1092px) and (min-width: 992px) {
     .nav-link {
-        font-size: 13px;
+        font-size: 0.813rem;
     }
 }
