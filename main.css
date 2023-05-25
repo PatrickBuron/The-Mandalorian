@@ -27,10 +27,8 @@ html {
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!NAVBAR!!!!!!!!!!!!!! */
 
-
 nav {
     border-bottom: 1px solid rgb(90, 113, 167);
-
 }
 
 a.active {
@@ -38,13 +36,10 @@ a.active {
 }
 
 .nav-link {
-
     position: relative;
     color: rgb(90, 113, 167);
     text-decoration: none;
 }
-
-
 
 .nav-link:before {
     content: "";
@@ -55,7 +50,6 @@ a.active {
     bottom: 0;
     left: 0;
     background-color: rgb(90, 113, 167);
-
     transform: scaleX(0);
     transition: transform 0.4s ease;
 }
@@ -65,12 +59,8 @@ a.active {
 }
 
 .navbar {
-
     background-color: black;
 }
-
-
-
 
 .navbar-toggler {
     width: 60px;
@@ -79,9 +69,7 @@ a.active {
 
 .nav-link {
     color: lightgray;
-
 }
-
 
 /* !!!!!!!!!!!!!!!!!!!!!!   TYPOGRAPHY     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
@@ -96,7 +84,6 @@ h2 {
     font-size: 34px;
     text-align: center;
     color: rgb(90, 113, 167);
-
 }
 
 h4 {
@@ -117,19 +104,18 @@ h5,
     margin-top: 2rem;
 }
 
-
-
 p {
     font-size: 16px;
     font-weight: 300;
     padding: 1em;
     line-height: 1.6;
-
 }
 
+.intro {
+    color: rgb(90, 113, 167);
+}
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!  CONTENT !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
 
 .content {
     padding: 3rem 0;
@@ -139,14 +125,11 @@ p {
     padding-top: 0 !important;
 }
 
-
+/* !!!!!!!!!!!!!!!!!!!!!!!  IMAGES !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 .img-index {
     padding: 16px 0;
-
 }
-
-
 
 .foto-info {
     font-size: 11px;
@@ -155,7 +138,6 @@ p {
 
 #hero-img {
     margin-top: 80px;
-
 }
 
 img {
@@ -165,6 +147,8 @@ img {
     width: 100%;
     height: auto;
 }
+
+/* !!!!!!!!!!!!!!!!!!!!  BUTTON !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 
 button {
@@ -186,7 +170,7 @@ button:hover {
     text-align: center;
 }
 
-/*  !!!!!!!!!!!css for cards in characters !!!!!!!!!!!!!!*/
+/*  !!!!!!!!!!!!! Cards in characters !!!!!!!!!!!!!!*/
 
 .card {
     transition: all 0.3s;
@@ -194,8 +178,6 @@ button:hover {
 
 .card:hover {
     transform: scale(1.03);
-    /* border-color: rgb(237, 182, 42); */
-
     border-color: rgb(90, 113, 167);
 }
 
@@ -213,7 +195,6 @@ button:hover {
 }
 
 .card-body a {
-    /* color: rgb(237, 182, 42); */
     position: relative;
     color: rgb(90, 113, 167);
     text-decoration: none;
@@ -241,11 +222,7 @@ button:hover {
     transform: scaleX(1);
 }
 
-
-
 /* !!!!!!!!!!back to top button !!!!!!!!!!!!! */
-
-
 
 .to-top {
     background: white;
@@ -265,7 +242,6 @@ button:hover {
     opacity: 0;
     pointer-events: none;
     transition: all .4s;
-
 }
 
 .to-top.active {
@@ -274,11 +250,7 @@ button:hover {
     opacity: 1;
 }
 
-
-
 /* !!!!!!!!!!!!!!!!!!!!!!! FOOTER !!!!!!!!!!!!!!!!!!!!!!!! */
-
-
 
 .copyright {
     color: rgb(237, 182, 42);
@@ -297,6 +269,8 @@ button:hover {
     border-top: 1px solid rgb(90, 113, 167);
     margin-top: 1rem;
 }
+
+/* !!!!!!!!!!!!!!! Media Queries !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 @media only screen and (max-width: 1092px) and (min-width: 992px) {
     .nav-link {
