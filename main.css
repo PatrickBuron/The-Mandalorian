@@ -136,10 +136,6 @@ p {
     padding: 3rem;
 }
 
-#content-filming {
-    padding-top: 0 !important;
-}
-
 .foto-info {
     font-size: 0.688rem;
     visibility: hidden;
@@ -284,6 +280,7 @@ img {
     padding-right: 2rem;
     padding-top: 1rem;
     color: rgb(237, 182, 42);
+    transition: 0.3s;
 }
 
 .fa-brands:hover {
