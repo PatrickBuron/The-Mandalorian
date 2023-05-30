@@ -149,9 +149,18 @@ img {
     height: auto;
 }
 
+.img-index,
+#hero-img {
+    padding: 2rem;
+}
+
 /* !!!!!!!!!!!!!!!!!!!!  BUTTON !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-button {
+.readmore {
+    text-align: center;
+}
+
+.btn {
     font-family: 'Poppins';
     font-size: 14px;
     background-color: black;
@@ -162,12 +171,11 @@ button {
     transition: all 0.3s ease-in-out;
 }
 
-button:hover {
+.btn:hover {
     transform: scale(1.1);
-}
-
-.readmore {
-    text-align: center;
+    background-color: black;
+    color: rgb(237, 182, 42);
+    border-color: rgb(237, 182, 42);
 }
 
 /*  !!!!!!!!!!!!! Cards in characters !!!!!!!!!!!!!!*/
