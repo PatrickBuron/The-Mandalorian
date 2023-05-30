@@ -280,7 +280,7 @@ img {
     padding-right: 2rem;
     padding-top: 1rem;
     color: rgb(237, 182, 42);
-    transition: 0.3s;
+    transition: 0.4s ease-in-out;
 }
 
 .fa-brands:hover {
@@ -296,7 +296,7 @@ img {
     }
 }
 
-@media only screen and (max-width: 375px) and (min-width: 100px) {
+@media only screen and (max-width: 419px) and (min-width: 100px) {
     .fa-brands {
         padding-right: 0.5rem
     }
