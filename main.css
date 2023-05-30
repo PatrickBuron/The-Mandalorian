@@ -295,3 +295,9 @@ img {
         font-size: 0.813rem;
     }
 }
+
+@media only screen and (max-width: 375px) and (min-width: 100px) {
+    .fa-brands {
+        padding-right: 0.5rem
+    }
+}
