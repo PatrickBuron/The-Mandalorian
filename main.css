@@ -278,8 +278,18 @@ img {
 
 .d-flex {
     border-top: 1px solid rgb(90, 113, 167);
-    margin-top: 1rem;
 }
+
+.fa-brands {
+    padding-right: 2rem;
+    padding-top: 1rem;
+    color: rgb(237, 182, 42);
+}
+
+.fa-brands:hover {
+    color: rgb(90, 113, 167);
+}
+
 
 /* !!!!!!!!!!!!!!! Media Queries !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
